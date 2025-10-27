@@ -4,7 +4,7 @@
 
 # Site
 title: france nuit 
-subtitle: 'quand france soir devient parodique '
+subtitle: ' '
 description: ''
 keywords:
 author: John Doe
@@ -13,8 +13,8 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
-permalink: :year/:month/:day/:title/
+url: https://france-nuit.github.io/
+permalink: :post_title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -106,7 +106,7 @@ deploy:
       github:
         url: "https://github.com/france-nuit/france-nuit.github.io.git"
       
-        token: $HEXO_DEPLOY_TOKEN
+        token: $GITHUB_TOKEN
     message: "chore: update build"
     name: alphaleadership
     email: alphaleadershipyt@protonmail.com
