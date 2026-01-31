@@ -101,12 +101,12 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  - type: git
-    repo: 
-      github:
-        url: "https://github.com/france-nuit/france-nuit.github.io.git"
-      
-        token: $GITHUB_TOKEN
-    message: "chore: update build"
-    name: alphaleadership
-    email: alphaleadershipyt@protonmail.com
+  type: git
+  repo:
+    github:
+      url: "https://github.com/france-nuit/france-nuit.github.io.git"
+      token: $GITHUB_TOKEN
+      branch: main
+  message: "chore: update build"
+  name: alphaleadership
+  email: alphaleadershipyt@protonmail.com
